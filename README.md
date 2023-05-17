@@ -1,2 +1,30 @@
 # Wine_quality_dataset
-The Wine dataset provides information about various attributes of different wines, such as chemical composition and quality ratings. It is often used to explore and analyze the relationships between these attributes and the quality of the wine.
+Wine Quality Dataset
+
+The Wine Quality Dataset involves predicting the quality of white wines on a scale given chemical measures of each wine.
+
+It is a multi-class classification problem, but could also be framed as a regression problem. The number of observations for each class is not balanced. There are 4,898 observations with 11 input variables and one output variable. The variable names are as
+
+follows:
+
+1. Fixed acidity.
+
+2. Volatile acidity.
+
+3. Citric acid. 4. Residual sugar.
+
+5. Chlorides. 6. Free sulfur dioxide.
+
+7. Total sulfur dioxide.
+
+8 Density
+
+9 pH
+
+10 Sulphates.
+
+11. Alcohol.
+
+12. Quality (score between 0 and 10).
+
+The baseline performance of predicting the mean value is an RMSE of approximately 0.148 quality points.
